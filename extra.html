@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Додаткове завдання</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h2>📌 Додаткове завдання</h2>
+
+  <!-- 1. Пости -->
+  <button id="refreshPostsBtn">🔄 Оновити пости</button>
+  <div id="posts"></div>
+
+  <!-- 2. Коментарі -->
+  <h3>💬 Коментарі до поста</h3>
+  <input type="number" id="postId" placeholder="ID поста">
+  <button onclick="loadComments()">Показати коментарі</button>
+  <ul id="comments"></ul>
+
+  <!-- 3. Фото авто -->
+  <h3>🚗 Фото автомобілів</h3>
+  <input type="text" id="carModel" placeholder="Наприклад, BMW M3">
+  <button onclick="loadCarImage()">Завантажити авто</button>
+  <div id="carImage"></div>
+
+  <script src="js/extra.js"></script>
+</body>
+</html>
